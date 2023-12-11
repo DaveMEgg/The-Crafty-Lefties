@@ -1,4 +1,5 @@
 
+
 portfolio_block {
     display: inline-flexbox
 }
@@ -15,28 +16,106 @@ ul {
 li, a {
     display: block;
     text-align: center;
+}
+
+body {
+    font-family: "Century Gothic", 'Lato', sans-serif;
+  }
+  
+  a {
     text-decoration: none;
-    color: black;
-    padding: 10px;
-    float: left;
-}
-
-li, a.current {
-    background: hotpink;
-}
-
-li a:hover {
+  }
+  
+  .et-hero-tabs,
+  .et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+  }
+  
+  .et-hero-tabs h1 {
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
+  
+  .et-hero-tabs h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+  
+  .et-hero-tabs-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 10;
+  }
+  
+  .et-hero-tabs-container--top {
+    position: fixed;
+    top: 0;
+  }
+  
+  .et-hero-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #000;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+  }
+  
+  .et-hero-tab:hover {
     color: white;
-}
-
-li a:active {
-    color: blue;
-}
-
-img1 {
-    display: inline-flexbox;
-}
-
-img2 {
-    display: right;
-}
+    background: rgba(102, 177, 241, 0.8);
+    transition: all 0.5s ease;
+  }
+  
+  .et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #66b1f1;
+    transition: left 0.3s ease;
+  }
+  
+  @media (min-width: 800px) {
+    .et-hero-tabs h1 {
+      font-size: 3rem;
+    }
+  
+    .et-hero-tabs h3 {
+      font-size: 1rem;
+    }
+  
+    .et-hero-tab {
+      font-size: 1rem;
+    }
+  }
+  
+  #tab-es6 {
+    background-image: url('./resources/Picture 1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
