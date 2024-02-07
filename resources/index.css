@@ -90,9 +90,9 @@ body {
 }
 
 main {
-	padding: 150px 30px 50px 90px;
+	padding: 100px 300px 50px 90px;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../images/brussels/navimage.jpg);
+		url(/resources/Pics/Kayla.jpeg);
 	background-size: cover;
 	background-position: center;
 	/* opacity: 0.8; */
