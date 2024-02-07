@@ -166,10 +166,11 @@ h2 {
 	padding-bottom: 50px;
 }
 .content {
-	margin-left: 100px;
+	margin-left: 80px;
 	padding-right: 25px;
 	display: block;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	padding: 10px;
 }
 .content h3 {
 	font-size: 50px;
@@ -304,17 +305,16 @@ footer div {
 	}
 
 	main {
-		padding: 250px 130px 150px 130px;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url(../images/brussels/navimage.jpg);
+		padding: 90px 100px 80px 70px;
 		background-size: cover;
 		background-position: center;
-		/* opacity: 0.8; */
 	}
+
 	h1 {
 		color: white;
 		font-size: 50px;
 	}
+
 	main h3 {
 		width: 40%;
 		margin: 10px 0 25px 0;
